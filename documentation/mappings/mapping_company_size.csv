@@ -1,0 +1,14 @@
+raw_value,canonical_value,ordinal_rank,mapping_version,notes
+de 1 a 5,BAND_1_5,1,v1,
+de 6 a 10,BAND_6_10,2,v1,
+de 11 a 50,BAND_11_50,3,v1,
+de 51 a 100,BAND_51_100,4,v1,
+de 101 a 500,BAND_101_500,5,v1,
+de 501 a 1000,BAND_501_1000,6,v1,Year1 punctuation without thousands separator
+de 501 a 1.000,BAND_501_1000,6,v1,Year2/Year3 punctuation with thousands separator
+de 1001 a 3000,BAND_1001_3000,7,v1,Year1 punctuation
+de 1.001 a 3.000,BAND_1001_3000,7,v1,Year2/Year3 punctuation
+Acima de 3000,BAND_ABOVE_3000,8,v1,Year1 punctuation
+Acima de 3.000,BAND_ABOVE_3000,8,v1,Year2/Year3 punctuation
+de 501 a 100,INVALID,,v1,data entry anomaly found in Year2/Year3 raw data (1 row each) - upper bound smaller than lower bound; mapped to INVALID rather than silently corrected or guessed
+,UNKNOWN,,v1,

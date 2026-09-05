@@ -1,0 +1,6 @@
+raw_value,canonical_value,mapping_version,notes
+Júnior,JUNIOR,v1,
+Pleno,MID,v1,
+Sênior,SENIOR,v1,
+Especialista/Staff+,SPECIALIST,v1,option only present starting Year 3; do not treat Year1/Year2 count as zero for this category
+,UNKNOWN,v1,structural missingness - only asked when P2_a/2.a indicates currently employed in a data role

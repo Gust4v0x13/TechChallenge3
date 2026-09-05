@@ -1,0 +1,6 @@
+raw_value,canonical_value,mapping_version,notes
+Masculino,MALE,v1,
+Feminino,FEMALE,v1,
+Outro,OTHER,v1,
+Prefiro não informar,NOT_INFORMED,v1,option only present starting Year 2
+,UNKNOWN,v1,structural/blank response mapped to UNKNOWN not dropped

@@ -1,0 +1,8 @@
+raw_value,canonical_value,mapping_version,notes
+Não é uma iniciativa que estamos focando e não tem sido uma prioridade.,NOT_PRIORITY,v1,
+"Mais ou menos... É uma das várias iniciativas que estamos impulsionando, mas não é uma prioridade (iniciativas isoladas e pouco foco).",SECONDARY_INITIATIVE,v1,Year2 wording
+"Mais ou menos... É uma das várias iniciativas que estamos impulsionando, mas não é uma prioridade (tratam-se de iniciativas isoladas e com pouco foco).",SECONDARY_INITIATIVE,v1,"Year3 wording, minor phrasing difference from Year2, same option"
+"Sim, está entre nossas principais prioridades para os próximos 2-4 anos (com discussões de iniciativas e orçamentos de curto a médio prazo).",TOP_PRIORITY_MEDIUM_TERM,v1,
+"Sim, é nossa principal prioridade como empresa (com foco executivo significativo e alocação de orçamento relevante).",TOP_PRIORITY_MAIN,v1,
+Não sei opinar sobre esse assunto.,DONT_KNOW,v1,
+,NOT_ASKED,v1,respondent was not shown this question within a survey where it exists (Year2/Year3 conditional branching)

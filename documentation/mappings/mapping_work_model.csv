@@ -1,0 +1,6 @@
+raw_value,canonical_value,mapping_version,notes
+Modelo 100% remoto,REMOTE,v1,
+Modelo 100% presencial,ON_SITE,v1,
+Modelo híbrido flexível (o funcionário tem liberdade para escolher quando estar no escritório presencialmente),HYBRID_FLEXIBLE,v1,
+Modelo híbrido com dias fixos de trabalho presencial,HYBRID_FIXED,v1,
+,UNKNOWN,v1,applies to current_work_model/ideal_work_model/rto_attitude source fields alike

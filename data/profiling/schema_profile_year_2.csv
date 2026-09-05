@@ -1,0 +1,400 @@
+position,source_column,dtype,non_null_count,missing_percentage,unique_count
+0,"""('P0', 'id')""",object,5293,0.0,5293
+1,"""('P1_a ', 'Idade')""",int64,5293,0.0,53
+2,"""('P1_a_1 ', 'Faixa idade')""",object,5293,0.0,9
+3,"""('P1_b ', 'Genero')""",object,5293,0.0,4
+4,"""('P1_c ', 'Cor/raca/etnia')""",object,5293,0.0,7
+5,"""('P1_d ', 'PCD')""",object,5293,0.0,3
+6,"""('P1_e ', 'experiencia_profissional_prejudicada')""",object,2719,48.63026638957113,17
+7,"""('P1_e_1 ', 'Não acredito que minha experiência profissional seja afetada')""",float64,2719,48.63026638957113,2
+8,"""('P1_e_2 ', 'Experiencia prejudicada devido a minha Cor Raça Etnia')""",float64,2719,48.63026638957113,2
+9,"""('P1_e_3 ', 'Experiencia prejudicada devido a minha identidade de gênero')""",float64,2719,48.63026638957113,2
+10,"""('P1_e_4 ', 'Experiencia prejudicada devido ao fato de ser PCD')""",float64,2719,48.63026638957113,2
+11,"""('P1_f ', 'aspectos_prejudicados')""",object,1244,76.49726053277914,602
+12,"""('P1_f_1', 'Quantidade de oportunidades de emprego/vagas recebidas')""",float64,1245,76.47836765539392,2
+13,"""('P1_f_2', 'Senioridade das vagas recebidas em relação à sua experiência')""",float64,1245,76.47836765539392,2
+14,"""('P1_f_3', 'Aprovação em processos seletivos/entrevistas')""",float64,1245,76.47836765539392,2
+15,"""('P1_f_4', 'Oportunidades de progressão de carreira')""",float64,1245,76.47836765539392,2
+16,"""('P1_f_5', 'Velocidade de progressão de carreira')""",float64,1245,76.47836765539392,2
+17,"""('P1_f_6', 'Nível de cobrança no trabalho/Stress no trabalho')""",float64,1245,76.47836765539392,2
+18,"""('P1_f_7', 'Atenção dada diante das minhas opiniões e ideias')""",float64,1245,76.47836765539392,2
+19,"""('P1_f_8', 'Relação com outros membros da empresa, em momentos de trabalho')""",float64,1245,76.47836765539392,2
+20,"""('P1_f_9', 'Relação com outros membros da empresa, em momentos de integração e outros momentos fora do trabalho')""",float64,1245,76.47836765539392,2
+21,"""('P1_g ', 'vive_no_brasil')""",int64,5293,0.0,2
+22,"""('P1_i ', 'Estado onde mora')""",object,5172,2.286038163612318,26
+23,"""('P1_i_1 ', 'uf onde mora')""",object,5169,2.3427167957679953,25
+24,"""('P1_i_2 ', 'Regiao onde mora')""",object,5169,2.3427167957679953,5
+25,"""('P1_j ', 'Mudou de Estado?')""",float64,5172,2.286038163612318,2
+26,"""('P1_k ', 'Regiao de origem')""",object,1064,79.89797846211978,28
+27,"""('P1_l ', 'Nivel de Ensino')""",object,5293,0.0,7
+28,"""('P1_m ', 'Área de Formação')""",object,5180,2.134895144530512,9
+29,"""('P2_a ', 'Qual sua situação atual de trabalho?')""",object,5293,0.0,13
+30,"""('P2_b ', 'Setor')""",object,4753,10.202153788021915,21
+31,"""('P2_c ', 'Numero de Funcionarios')""",object,4753,10.202153788021915,9
+32,"""('P2_d ', 'Gestor?')""",float64,4753,10.202153788021915,2
+33,"""('P2_e ', 'Cargo como Gestor')""",object,896,83.0719818628377,5
+34,"""('P2_f ', 'Cargo Atual')""",object,3857,27.130171925184204,17
+35,"""('P2_g ', 'Nivel')""",object,3857,27.130171925184204,3
+36,"""('P2_h ', 'Faixa salarial')""",object,4753,10.202153788021915,14
+37,"""('P2_i ', 'Quanto tempo de experiência na área de dados você tem?')""",object,4753,10.202153788021915,8
+38,"""('P2_j ', 'Quanto tempo de experiência na área de TI/Engenharia de Software você teve antes de começar a trabalhar na área de dados?')""",object,4753,10.202153788021915,7
+39,"""('P2_k ', 'Você está satisfeito na sua empresa atual?')""",float64,4753,10.202153788021915,2
+40,"""('P2_l ', 'Qual o principal motivo da sua insatisfação com a empresa atual?')""",object,1318,75.09918760627244,259
+41,"""('P2_l_1 ', 'Falta de oportunidade de crescimento no emprego atual')""",float64,1318,75.09918760627244,2
+42,"""('P2_l_2 ', 'Salário atual não corresponde ao mercado')""",float64,1318,75.09918760627244,2
+43,"""('P2_l_3 ', 'Não tenho uma boa relação com meu líder/gestor')""",float64,1318,75.09918760627244,2
+44,"""('P2_l_4 ', 'Gostaria de trabalhar em em outra área de atuação')""",float64,1318,75.09918760627244,2
+45,"""('P2_l_5 ', 'Gostaria de receber mais benefícios')""",float64,1318,75.09918760627244,2
+46,"""('P2_l_6 ', 'O clima de trabalho/ambiente não é bom')""",float64,1318,75.09918760627244,2
+47,"""('P2_l_7 ', 'Falta de maturidade analítica na empresa')""",float64,1318,75.09918760627244,2
+48,"""('P2_m ', 'Você participou de entrevistas de emprego nos últimos 6 meses?')""",object,4753,10.202153788021915,6
+49,"""('P2_n ', 'Você pretende mudar de emprego nos próximos 6 meses?')""",object,4753,10.202153788021915,4
+50,"""('P2_o ', 'Quais os principais critérios que você leva em consideração no momento de decidir onde trabalhar?')""",object,4727,10.693368600037786,466
+51,"""('P2_o_1 ', 'Remuneração/Salário')""",float64,4727,10.693368600037786,2
+52,"""('P2_o_2 ', 'Benefícios')""",float64,4727,10.693368600037786,2
+53,"""('P2_o_3 ', 'Propósito do trabalho e da empresa')""",float64,4727,10.693368600037786,2
+54,"""('P2_o_4 ', 'Flexibilidade de trabalho remoto')""",float64,4727,10.693368600037786,2
+55,"""('P2_o_5 ', 'Ambiente e clima de trabalho')""",float64,4727,10.693368600037786,2
+56,"""('P2_o_6 ', 'Oportunidade de aprendizado e trabalhar com referências na área')""",float64,4727,10.693368600037786,2
+57,"""('P2_o_7 ', 'Plano de carreira e oportunidades de crescimento profissional')""",float64,4727,10.693368600037786,2
+58,"""('P2_o_8 ', 'Maturidade da empresa em termos de tecnologia e dados')""",float64,4727,10.693368600037786,2
+59,"""('P2_o_9 ', 'Qualidade dos gestores e líderes')""",float64,4727,10.693368600037786,2
+60,"""('P2_o_10 ', 'Reputação que a empresa tem no mercado')""",float64,4727,10.693368600037786,2
+61,"""('P2_q ', 'Empresa que trabaha passou por layoff em 2023')""",object,4753,10.202153788021915,3
+62,"""('P2_r ', 'Atualmente qual a sua forma de trabalho?')""",object,4753,10.202153788021915,4
+63,"""('P2_s ', 'Qual a forma de trabalho ideal para você?')""",object,4753,10.202153788021915,4
+64,"""('P2_t ', 'Caso sua empresa decida pelo modelo 100% presencial qual será sua atitude?')""",object,4753,10.202153788021915,3
+65,"""('P3_a ', 'Qual o número aproximado de pessoas que atuam com dados na sua empresa hoje?')""",object,896,83.0719818628377,8
+66,"""('P3_b ', 'Quais desses papéis/cargos fazem parte do time (ou chapter) de dados da sua empresa?')""",object,859,83.77101832609107,647
+67,"""('P3_b_1 ', 'Analytics Engineer')""",float64,859,83.77101832609107,2
+68,"""('P3_b_2 ', 'Engenharia de Dados/Data Engineer')""",float64,859,83.77101832609107,2
+69,"""('P3_b_3 ', 'Analista de Dados/Data Analyst')""",float64,859,83.77101832609107,2
+70,"""('P3_b_4 ', 'Cientista de Dados/Data Scientist')""",float64,859,83.77101832609107,2
+71,"""('P3_b_5 ', 'Database Administrator/DBA')""",float64,859,83.77101832609107,2
+72,"""('P3_b_6 ', 'Analista de Business Intelligence/BI')""",float64,859,83.77101832609107,2
+73,"""('P3_b_7 ', 'Arquiteto de Dados/Data Architect')""",float64,859,83.77101832609107,2
+74,"""('P3_b_8 ', 'Data Product Manager/DPM')""",float64,859,83.77101832609107,2
+75,"""('P3_b_9 ', 'Business Analyst')""",float64,859,83.77101832609107,2
+76,"""('P3_c ', 'Quais dessas responsabilidades fazem parte da sua rotina atual de trabalho como gestor?')""",object,873,83.5065180426979,611
+77,"""('P3_c_1 ', 'Pensar na visão de longo prazo de dados da empresa e fortalecimento da cultura analítica da companhia.')""",float64,874,83.48762516531268,2
+78,"""('P3_c_2 ', 'Organização de treinamentos e iniciativas com o objetivo de aumentar a maturidade analítica das áreas de negócios.')""",float64,874,83.48762516531268,2
+79,"""('P3_c_3 ', 'Atração, seleção e contratação de talentos para o time de dados.')""",float64,874,83.48762516531268,2
+80,"""('P3_c_4 ', 'Decisão sobre contratação de ferramentas e tecnologias relacionadas a dados.')""",float64,874,83.48762516531268,2
+81,"""('P3_c_5 ', 'Sou gestor da equipe responsável pela engenharia de dados e por manter o Data Lake da empresa como fonte única dos dados, garantindo a qualidade e confiabilidade da informação.')""",float64,874,83.48762516531268,2
+82,"""('P3_c_6 ', 'Sou gestor da equipe responsável pela entrega de dados, estudos, relatórios e dashboards para as áreas de negócio da empresa.')""",float64,874,83.48762516531268,2
+83,"""('P3_c_7 ', 'Sou gestor da equipe responsável por iniciativas e projetos envolvendo Inteligência Artificial e Machine Learning.')""",float64,874,83.48762516531268,2
+84,"""('P3_c_8 ', 'Apesar de ser gestor ainda atuo na parte técnica, construindo soluções/análises/modelos etc.')""",float64,874,83.48762516531268,2
+85,"""('P3_c_9 ', 'Gestão de projetos de dados, cuidando das etapas, equipes envolvidas, atingimento dos objetivos etc.')""",float64,874,83.48762516531268,2
+86,"""('P3_c_10 ', 'Gestão de produtos de dados, cuidando da visão dos produtos, backlog, feedback de usuários etc.')""",float64,874,83.48762516531268,2
+87,"""('P3_c_11 ', 'Gestão de pessoas, apoio no desenvolvimento das pessoas, evolução de carreira')""",float64,874,83.48762516531268,2
+88,"""('P3_d ', 'Quais são os 3 maiores desafios que você tem como gestor no atual momento?')""",object,872,83.52541092008313,601
+89,"""('P3_d_1 ', 'a Contratar novos talentos.')""",float64,874,83.48762516531268,2
+90,"""('P3_d_2 ', 'b Reter talentos.')""",float64,874,83.48762516531268,2
+91,"""('P3_d_3 ', 'c Convencer a empresa a aumentar os investimentos na área de dados.')""",float64,874,83.48762516531268,2
+92,"""('P3_d_4 ', 'd Gestão de equipes no ambiente remoto.')""",float64,874,83.48762516531268,2
+93,"""('P3_d_5 ', 'e Gestão de projetos envolvendo áreas multidisciplinares da empresa.')""",float64,874,83.48762516531268,2
+94,"""('P3_d_6 ', 'f Organizar as informações e garantir a qualidade e confiabilidade.')""",float64,874,83.48762516531268,2
+95,"""('P3_d_7 ', 'g Conseguir processar e armazenar um alto volume de dados.')""",float64,874,83.48762516531268,2
+96,"""('P3_d_8 ', 'h Conseguir gerar valor para as áreas de negócios através de estudos e experimentos.')""",float64,874,83.48762516531268,2
+97,"""('P3_d_9 ', 'i Desenvolver e manter modelos Machine Learning em produção.')""",float64,874,83.48762516531268,2
+98,"""('P3_d_10 ', 'j Gerenciar a expectativa das áreas de negócio em relação as entregas das equipes de dados.')""",float64,874,83.48762516531268,2
+99,"""('P3_d_11 ', 'k Garantir a manutenção dos projetos e modelos em produção, em meio ao crescimento da empresa.')""",float64,874,83.48762516531268,2
+100,"""('P3_d_12 ', 'Conseguir levar inovação para a empresa através dos dados.')""",float64,874,83.48762516531268,2
+101,"""('P3_d_13 ', 'Garantir retorno do investimento (ROI) em projetos de dados.')""",float64,874,83.48762516531268,2
+102,"""('P3_d_14 ', 'Dividir o tempo entre entregas técnicas e gestão.')""",float64,874,83.48762516531268,2
+103,"""('P3_e ', 'AI Generativa é uma prioridade em sua empresa?')""",object,896,83.0719818628377,5
+104,"""('P3_f ', 'Tipos de uso de AI Generativa e LLMs na empresa')""",object,862,83.71433969393539,152
+105,"""('P3_f_1 ', 'Colaboradores usando AI generativa de forma independente e descentralizada')""",float64,862,83.71433969393539,2
+106,"""('P3_f_2 ', 'Direcionamento centralizado do uso de AI generativa')""",float64,862,83.71433969393539,2
+107,"""('P3_f_3 ', 'Desenvolvedores utilizando Copilots')""",float64,862,83.71433969393539,2
+108,"""('P3_f_4 ', 'AI Generativa e LLMs para melhorar produtos externos')""",float64,862,83.71433969393539,2
+109,"""('P3_f_5 ', 'AI Generativa e LLMs para melhorar produtos internos para os colaboradores')""",float64,862,83.71433969393539,2
+110,"""('P3_f_6 ', 'IA Generativa e LLMs como principal frente do negócio')""",float64,862,83.71433969393539,2
+111,"""('P3_f_7 ', 'IA Generativa e LLMs não é prioridade')""",float64,862,83.71433969393539,2
+112,"""('P3_f_8 ', 'Não sei opinar sobre o uso de IA Generativa e LLMs na empresa')""",float64,862,83.71433969393539,2
+113,"""('P3_g ', 'Motivos que levam a empresa a não usar AI Genrativa e LLMs')""",object,822,84.47005478934442,269
+114,"""('P3_g_1 ', 'Falta de compreensão dos casos de uso')""",float64,823,84.45116191195919,2
+115,"""('P3_g_2 ', 'Falta de confiabilidade das saídas (alucinação dos modelos)')""",float64,823,84.45116191195919,2
+116,"""('P3_g_3 ', 'Incerteza em relação a regulamentação')""",float64,823,84.45116191195919,2
+117,"""('P3_g_4 ', 'Preocupações com segurança e privacidade de dados')""",float64,823,84.45116191195919,2
+118,"""('P3_g_5 ', 'Retorno sobre investimento (ROI) não comprovado de IA Generativa')""",float64,823,84.45116191195919,2
+119,"""('P3_g_6 ', 'Dados da empresa não estão prontos para uso de IA Generativa')""",float64,823,84.45116191195919,2
+120,"""('P3_g_7 ', 'Falta de expertise ou falta de recursos')""",float64,823,84.45116191195919,2
+121,"""('P3_g_8 ', 'Alta direção da empresa não vê valor ou não vê como prioridade')""",float64,823,84.45116191195919,2
+122,"""('P3_g_9 ', 'Preocupações com propriedade intelectual')""",float64,823,84.45116191195919,2
+123,"""('P4_a ', 'Mesmo que esse não seja seu cargo formal, você considera que sua atuação no dia a dia, reflete alguma das opções listadas abaixo?')""",object,3751,29.132816928018133,4
+124,"""('P4_a_1 ', 'Atuacao')""",object,5293,0.0,6
+125,"""('P4_b ', 'Quais das fontes de dados listadas você já analisou ou processou no trabalho?')""",object,3772,28.7360665029284,544
+126,"""('P4_b_1 ', 'Dados relacionais (estruturados em bancos SQL)')""",float64,3772,28.7360665029284,2
+127,"""('P4_b_2 ', 'Dados armazenados em bancos NoSQL')""",float64,3772,28.7360665029284,2
+128,"""('P4_b_3 ', 'Imagens')""",float64,3772,28.7360665029284,2
+129,"""('P4_b_4 ', 'Textos/Documentos')""",float64,3772,28.7360665029284,2
+130,"""('P4_b_5 ', 'Vídeos')""",float64,3772,28.7360665029284,2
+131,"""('P4_b_6 ', 'Áudios')""",float64,3772,28.7360665029284,2
+132,"""('P4_b_7 ', 'Planilhas')""",float64,3772,28.7360665029284,2
+133,"""('P4_b_8 ', 'Dados georeferenciados')""",float64,3772,28.7360665029284,2
+134,"""('P4_c ', 'Entre as fontes de dados listadas, quais você utiliza na maior parte do tempo?')""",object,3771,28.754959380313622,104
+135,"""('P4_c_1 ', 'Dados relacionais (estruturados em bancos SQL)')""",float64,3772,28.7360665029284,2
+136,"""('P4_c_2 ', 'Dados armazenados em bancos NoSQL')""",float64,3772,28.7360665029284,2
+137,"""('P4_c_3 ', 'Imagens')""",float64,3772,28.7360665029284,2
+138,"""('P4_c_4 ', 'Textos/Documentos')""",float64,3772,28.7360665029284,2
+139,"""('P4_c_5 ', 'Vídeos')""",float64,3772,28.7360665029284,2
+140,"""('P4_c_6 ', 'Áudios')""",float64,3772,28.7360665029284,2
+141,"""('P4_c_7 ', 'Planilhas')""",float64,3772,28.7360665029284,2
+142,"""('P4_c_8 ', 'Dados georeferenciados')""",float64,3772,28.7360665029284,2
+143,"""('P4_d ', 'Quais das linguagens listadas abaixo você utiliza no trabalho?')""",object,3772,28.7360665029284,271
+144,"""('P4_d_1 ', 'SQL')""",float64,3772,28.7360665029284,2
+145,"""('P4_d_2 ', 'R ')""",float64,3772,28.7360665029284,2
+146,"""('P4_d_3 ', 'Python')""",float64,3772,28.7360665029284,2
+147,"""('P4_d_4 ', 'C/C++/C#')""",float64,3772,28.7360665029284,2
+148,"""('P4_d_5 ', '.NET')""",float64,3772,28.7360665029284,2
+149,"""('P4_d_6 ', 'Java')""",float64,3772,28.7360665029284,2
+150,"""('P4_d_7 ', 'Julia')""",float64,3772,28.7360665029284,2
+151,"""('P4_d_8 ', 'SAS/Stata')""",float64,3772,28.7360665029284,2
+152,"""('P4_d_9 ', 'Visual Basic/VBA')""",float64,3772,28.7360665029284,2
+153,"""('P4_d_10 ', 'Scala')""",float64,3772,28.7360665029284,2
+154,"""('P4_d_11 ', 'Matlab')""",float64,3772,28.7360665029284,2
+155,"""('P4_d_12 ', 'Rust')""",float64,3772,28.7360665029284,2
+156,"""('P4_d_13 ', 'PHP')""",float64,3772,28.7360665029284,2
+157,"""('P4_d_14 ', 'JavaScript')""",float64,3772,28.7360665029284,2
+158,"""('P4_d_15 ', 'Não utilizo nenhuma linguagem')""",float64,3772,28.7360665029284,2
+159,"""('P4_e ', 'Entre as linguagens listadas abaixo, qual é a que você mais utiliza no trabalho?')""",object,3772,28.7360665029284,14
+160,"""('P4_f ', 'Entre as linguagens listadas abaixo, qual é a sua preferida?')""",object,3750,29.151709805403364,16
+161,"""('P4_g ', 'Quais dos bancos de dados/fontes de dados listados abaixo você utiliza no trabalho?')""",object,3770,28.773852257698845,1838
+162,"""('P4_g_1 ', 'MySQL')""",float64,3772,28.7360665029284,2
+163,"""('P4_g_2 ', 'Oracle')""",float64,3772,28.7360665029284,2
+164,"""('P4_g_3 ', 'SQL SERVER')""",float64,3772,28.7360665029284,2
+165,"""('P4_g_4 ', 'Amazon Aurora ou RDS')""",float64,3772,28.7360665029284,2
+166,"""('P4_g_5 ', 'DynamoDB')""",float64,3772,28.7360665029284,2
+167,"""('P4_g_6 ', 'CoachDB')""",float64,3772,28.7360665029284,2
+168,"""('P4_g_7 ', 'Cassandra')""",float64,3772,28.7360665029284,2
+169,"""('P4_g_8 ', 'MongoDB')""",float64,3772,28.7360665029284,2
+170,"""('P4_g_9 ', 'MariaDB')""",float64,3772,28.7360665029284,2
+171,"""('P4_g_10 ', 'Datomic')""",float64,3772,28.7360665029284,2
+172,"""('P4_g_11 ', 'S3')""",float64,3772,28.7360665029284,2
+173,"""('P4_g_12 ', 'PostgreSQL')""",float64,3772,28.7360665029284,2
+174,"""('P4_g_13 ', 'ElasticSearch')""",float64,3772,28.7360665029284,2
+175,"""('P4_g_14 ', 'DB2')""",float64,3772,28.7360665029284,2
+176,"""('P4_g_15 ', 'Microsoft Access')""",float64,3772,28.7360665029284,2
+177,"""('P4_g_16 ', 'SQLite')""",float64,3772,28.7360665029284,2
+178,"""('P4_g_17 ', 'Sybase')""",float64,3772,28.7360665029284,2
+179,"""('P4_g_18 ', 'Firebase')""",float64,3772,28.7360665029284,2
+180,"""('P4_g_19 ', 'Vertica')""",float64,3772,28.7360665029284,2
+181,"""('P4_g_20 ', 'Redis')""",float64,3772,28.7360665029284,2
+182,"""('P4_g_21 ', 'Neo4J')""",float64,3772,28.7360665029284,2
+183,"""('P4_g_22 ', 'Google BigQuery')""",float64,3772,28.7360665029284,2
+184,"""('P4_g_23 ', 'Google Firestore')""",float64,3772,28.7360665029284,2
+185,"""('P4_g_24 ', 'Amazon Redshift')""",float64,3772,28.7360665029284,2
+186,"""('P4_g_25 ', 'Amazon Athena')""",float64,3772,28.7360665029284,2
+187,"""('P4_g_26 ', 'Snowflake')""",float64,3772,28.7360665029284,2
+188,"""('P4_g_27 ', 'Databricks')""",float64,3772,28.7360665029284,2
+189,"""('P4_g_28 ', 'HBase')""",float64,3772,28.7360665029284,2
+190,"""('P4_g_29 ', 'Presto')""",float64,3772,28.7360665029284,2
+191,"""('P4_g_30 ', 'Splunk')""",float64,3772,28.7360665029284,2
+192,"""('P4_g_31 ', 'SAP HANA')""",float64,3772,28.7360665029284,2
+193,"""('P4_g_32 ', 'Hive')""",float64,3772,28.7360665029284,2
+194,"""('P4_g_33 ', 'Firebird')""",float64,3772,28.7360665029284,2
+195,"""('P4_h ', 'Dentre as opções listadas, qual sua Cloud preferida?')""",object,3613,31.74003400717929,175
+196,"""('P4_h_1 ', 'Azure (Microsoft)')""",float64,3613,31.74003400717929,2
+197,"""('P4_h_2 ', 'Amazon Web Services (AWS)')""",float64,3613,31.74003400717929,2
+198,"""('P4_h_3 ', 'Google Cloud (GCP)')""",float64,3613,31.74003400717929,2
+199,"""('P4_h_4 ', 'Oracle Cloud')""",float64,3613,31.74003400717929,2
+200,"""('P4_h_5 ', 'IBM')""",float64,3613,31.74003400717929,2
+201,"""('P4_h_6 ', 'Servidores On Premise/Não utilizamos Cloud')""",float64,3613,31.74003400717929,2
+202,"""('P4_h_7 ', 'Cloud Própria')""",float64,3613,31.74003400717929,2
+203,"""('P4_i ', 'Cloud preferida')""",object,3771,28.754959380313622,44
+204,"""('P4_j ', 'Ferramenta de BI utilizada no dia a dia')""",object,3772,28.7360665029284,764
+205,"""('P4_j_1 ', 'Microsoft PowerBI')""",float64,3772,28.7360665029284,2
+206,"""('P4_j_2 ', 'Qlik View/Qlik Sense')""",float64,3772,28.7360665029284,2
+207,"""('P4_j_3 ', 'Tableau')""",float64,3772,28.7360665029284,2
+208,"""('P4_j_4 ', 'Metabase')""",float64,3772,28.7360665029284,2
+209,"""('P4_j_5 ', 'Superset')""",float64,3772,28.7360665029284,2
+210,"""('P4_j_6 ', 'Redash')""",float64,3772,28.7360665029284,2
+211,"""('P4_j_7 ', 'Looker')""",float64,3772,28.7360665029284,2
+212,"""('P4_j_8 ', 'Looker Studio(Google Data Studio)')""",float64,3772,28.7360665029284,2
+213,"""('P4_j_9 ', 'Amazon Quicksight')""",float64,3772,28.7360665029284,2
+214,"""('P4_j_10 ', 'Mode')""",float64,3772,28.7360665029284,2
+215,"""('P4_j_11 ', 'Alteryx')""",float64,3772,28.7360665029284,2
+216,"""('P4_j_12 ', 'MicroStrategy')""",float64,3772,28.7360665029284,2
+217,"""('P4_j_13 ', 'IBM Analytics/Cognos')""",float64,3772,28.7360665029284,2
+218,"""('P4_j_14 ', 'SAP Business Objects/SAP Analytics')""",float64,3772,28.7360665029284,2
+219,"""('P4_j_15 ', 'Oracle Business Intelligence')""",float64,3772,28.7360665029284,2
+220,"""('P4_j_16 ', 'Salesforce/Einstein Analytics')""",float64,3772,28.7360665029284,2
+221,"""('P4_j_17 ', 'Birst')""",float64,3772,28.7360665029284,2
+222,"""('P4_j_18 ', 'SAS Visual Analytics')""",float64,3772,28.7360665029284,2
+223,"""('P4_j_19 ', 'Grafana')""",float64,3772,28.7360665029284,2
+224,"""('P4_j_20 ', 'TIBCO Spotfire')""",float64,3772,28.7360665029284,2
+225,"""('P4_j_21 ', 'Pentaho')""",float64,3772,28.7360665029284,2
+226,"""('P4_j_22 ', 'Fazemos todas as análises utilizando apenas Excel ou planilhas do google')""",float64,3772,28.7360665029284,2
+227,"""('P4_j_23 ', 'Não utilizo nenhuma ferramenta de BI no trabalho')""",float64,3772,28.7360665029284,2
+228,"""('P4_k ', 'Qual sua ferramenta de BI preferida?')""",object,3768,28.8116380124693,91
+229,"""('P4_l ', 'Qual o tipo de uso de AI Generativa e LLMs na empresa')""",object,3772,28.7360665029284,199
+230,"""('P4_l_1 ', 'Colaboradores usando AI generativa de forma independente e descentralizada')""",float64,3772,28.7360665029284,2
+231,"""('P4_l_2 ', 'Direcionamento centralizado do uso de AI generativa')""",float64,3772,28.7360665029284,2
+232,"""('P4_l_3 ', 'Desenvolvedores utilizando Copilots')""",float64,3772,28.7360665029284,2
+233,"""('P4_l_4 ', 'AI Generativa e LLMs para melhorar produtos externos para os clientes finais')""",float64,3772,28.7360665029284,2
+234,"""('P4_l_5 ', 'AI Generativa e LLMs para melhorar produtos internos para os colaboradores')""",float64,3772,28.7360665029284,2
+235,"""('P4_l_6 ', 'IA Generativa e LLMs como principal frente do negócio')""",float64,3772,28.7360665029284,2
+236,"""('P4_l_7 ', 'IA Generativa e LLMs não é prioridade')""",float64,3772,28.7360665029284,2
+237,"""('P4_l_8 ', 'Não sei opinar sobre o uso de IA Generativa e LLMs na empresa')""",float64,3772,28.7360665029284,2
+238,"""('P4_m ', 'Utiliza ChatGPT ou LLMs no trabalho?')""",object,3772,28.7360665029284,22
+239,"""('P4_m_1 ', 'Não uso soluções de AI Generativa com foco em produtividade')""",float64,3772,28.7360665029284,2
+240,"""('P4_m_2 ', 'Uso soluções gratuitas de AI Generativa com foco em produtividade')""",float64,3772,28.7360665029284,2
+241,"""('P4_m_3 ', 'Uso e pago pelas soluções de AI Generativa com foco em produtividade')""",float64,3772,28.7360665029284,2
+242,"""('P4_m_4 ', 'A empresa que trabalho paga pelas soluções de AI Generativa com foco em produtividade')""",float64,3772,28.7360665029284,2
+243,"""('P4_m_5 ', 'Uso soluções do tipo Copilot')""",float64,3772,28.7360665029284,2
+244,"""('P5_a ', 'Qual seu objetivo na área de dados?')""",object,525,90.08123937275647,52
+245,"""('P5_b ', 'Qual oportunidade você está buscando?')""",object,287,94.5777441904402,13
+246,"""('P5_c ', 'Há quanto tempo você busca uma oportunidade na área de dados?')""",object,287,94.5777441904402,4
+247,"""('P5_d ', 'Como tem sido a busca por um emprego na área de dados?')""",object,286,94.59663706782543,6
+248,"""('P6_a ', 'Quais das opções abaixo fazem parte da sua rotina no trabalho atual como engenheiro de dados?')""",object,912,82.76969582467409,311
+249,"""('P6_a_1 ', 'Desenvolvo pipelines de dados utilizando linguagens de programação como Python, Scala, Java etc.')""",float64,912,82.76969582467409,2
+250,"""('P6_a_2 ', 'Realizo construções de ETL's em ferramentas como Pentaho, Talend, Dataflow etc.')""",float64,912,82.76969582467409,2
+251,"""('P6_a_3 ', 'Crio consultas através da linguagem SQL para exportar informações e compartilhar com as áreas de negócio.')""",float64,912,82.76969582467409,2
+252,"""('P6_a_4 ', 'Atuo na integração de diferentes fontes de dados através de plataformas proprietárias como Stitch Data, Fivetran etc.')""",float64,912,82.76969582467409,2
+253,"""('P6_a_5 ', 'Modelo soluções de arquitetura de dados, criando componentes de ingestão de dados, transformação e recuperação da informação.')""",float64,912,82.76969582467409,2
+254,"""('P6_a_6 ', 'Desenvolvo/cuido da manutenção de repositórios de dados baseados em streaming de eventos como Data Lakes e Data Lakehouses.')""",float64,912,82.76969582467409,2
+255,"""('P6_a_7 ', 'Atuo na modelagem dos dados, com o objetivo de criar conjuntos de dados como Data Warehouses, Data Marts etc.')""",float64,912,82.76969582467409,2
+256,"""('P6_a_8 ', 'Cuido da qualidade dos dados, metadados e dicionário de dados.')""",float64,912,82.76969582467409,2
+257,"""('P6_a_9 ', 'Nenhuma das opções listadas refletem meu dia a dia.')""",float64,912,82.76969582467409,2
+258,"""('P6_b ', 'Quais as ferramentas/tecnologias de ETL que você utiliza no trabalho como Data Engineer?')""",object,912,82.76969582467409,357
+259,"""('P6_b_1 ', 'Scripts Python')""",float64,912,82.76969582467409,2
+260,"""('P6_b_2 ', 'SQL & Stored Procedures')""",float64,912,82.76969582467409,2
+261,"""('P6_b_3 ', 'Apache Airflow')""",float64,912,82.76969582467409,2
+262,"""('P6_b_4 ', 'Apache NiFi')""",float64,912,82.76969582467409,2
+263,"""('P6_b_5 ', 'Luigi')""",float64,912,82.76969582467409,2
+264,"""('P6_b_6 ', 'AWS Glue')""",float64,912,82.76969582467409,2
+265,"""('P6_b_7 ', 'Talend')""",float64,912,82.76969582467409,2
+266,"""('P6_b_8 ', 'Pentaho')""",float64,912,82.76969582467409,2
+267,"""('P6_b_9 ', 'Alteryx')""",float64,912,82.76969582467409,2
+268,"""('P6_b_10 ', 'Stitch')""",float64,912,82.76969582467409,2
+269,"""('P6_b_11 ', 'Fivetran')""",float64,912,82.76969582467409,2
+270,"""('P6_b_12 ', 'Google Dataflow')""",float64,912,82.76969582467409,2
+271,"""('P6_b_13 ', 'Oracle Data Integrator')""",float64,912,82.76969582467409,2
+272,"""('P6_b_14 ', 'IBM DataStage')""",float64,912,82.76969582467409,2
+273,"""('P6_b_15 ', 'SAP BW ETL')""",float64,912,82.76969582467409,2
+274,"""('P6_b_16 ', 'SQL Server Integration Services (SSIS))""",float64,912,82.76969582467409,2
+275,"""('P6_b_17 ', 'SAS Data Integration')""",float64,912,82.76969582467409,2
+276,"""('P6_b_18 ', 'Qlik Sense')""",float64,912,82.76969582467409,2
+277,"""('P6_b_19 ', 'Knime')""",float64,912,82.76969582467409,2
+278,"""('P6_b_20 ', 'Databricks')""",float64,912,82.76969582467409,2
+279,"""('P6_b_21 ', 'Não utilizo ferramentas de ETL')""",float64,912,82.76969582467409,2
+280,"""('P6_c ', 'Sua organização possui um Data Lake?')""",float64,911,82.78858870205933,2
+281,"""('P6_d ', 'Qual tecnologia utilizada como plataforma do Data Lake?')""",object,742,85.98148498016248,7
+282,"""('P6_e ', 'Sua organização possui um Data Warehouse?')""",float64,909,82.82637445682978,2
+283,"""('P6_f ', 'Qual tecnologia utilizada como plataforma do Data Warehouse?')""",object,739,86.03816361231816,10
+284,"""('P6_g ', 'Quais as ferramentas de gestão de Qualidade de dados, Metadados e catálogo de dados você utiliza no trabalho?')""",object,555,89.5144530511997,13
+285,"""('P6_h ', 'Em qual das opções abaixo você gasta a maior parte do seu tempo?')""",object,912,82.76969582467409,59
+286,"""('P6_h_1 ', 'Desenvolvendo pipelines de dados utilizando linguagens de programação como Python, Scala, Java etc.')""",float64,912,82.76969582467409,2
+287,"""('P6_h_2 ', 'Realizando construções de ETL's em ferramentas como Pentaho, Talend, Dataflow etc.')""",float64,912,82.76969582467409,2
+288,"""('P6_h_3 ', 'Criando consultas através da linguagem SQL para exportar informações e compartilhar com as áreas de negócio.')""",float64,912,82.76969582467409,2
+289,"""('P6_h_4 ', 'Atuando na integração de diferentes fontes de dados através de plataformas proprietárias como Stitch Data, Fivetran etc.')""",float64,912,82.76969582467409,2
+290,"""('P6_h_5 ', 'Modelando soluções de arquitetura de dados, criando componentes de ingestão de dados, transformação e recuperação da informação.')""",float64,912,82.76969582467409,2
+291,"""('P6_h_6 ', 'Desenvolvendo/cuidando da manutenção de repositórios de dados baseados em streaming de eventos como Data Lakes e Data Lakehouses.')""",float64,912,82.76969582467409,2
+292,"""('P6_h_7 ', 'Atuando na modelagem dos dados, com o objetivo de criar conjuntos de dados como Data Warehouses, Data Marts etc.')""",float64,912,82.76969582467409,2
+293,"""('P6_h_8 ', 'Cuidando da qualidade dos dados, metadados e dicionário de dados.')""",float64,912,82.76969582467409,2
+294,"""('P6_h_9 ', 'Nenhuma das opções listadas refletem meu dia a dia.')""",float64,912,82.76969582467409,2
+295,"""('P7_1 ', 'Quais das opções abaixo fazem parte da sua rotina no trabalho atual com análise de dados?')""",object,1795,66.08728509351974,415
+296,"""('P7_a_1 ', 'Processo e analiso dados utilizando linguagens de programação como Python, R etc.')""",float64,1795,66.08728509351974,2
+297,"""('P7_a_2 ', 'Realizo construções de dashboards em ferramentas de BI como PowerBI, Tableau, Looker, Qlik etc.')""",float64,1795,66.08728509351974,2
+298,"""('P7_a_3 ', 'Crio consultas através da linguagem SQL para exportar informações e compartilhar com as áreas de negócio.')""",float64,1795,66.08728509351974,2
+299,"""('P7_a_4 ', 'Utilizo API's para extrair dados e complementar minhas análises.')""",float64,1795,66.08728509351974,2
+300,"""('P7_a_5 ', 'Realizo experimentos e estudos utilizando metodologias estatísticas como teste de hipótese, modelos de regressão etc.')""",float64,1795,66.08728509351974,2
+301,"""('P7_a_6 ', 'Desenvolvo/cuido da manutenção de ETL's utilizando tecnologias como Talend, Pentaho, Airflow, Dataflow etc.')""",float64,1795,66.08728509351974,2
+302,"""('P7_a_7 ', 'Atuo na modelagem dos dados, com o objetivo de criar conjuntos de dados, Data Warehouses, Data Marts etc.')""",float64,1795,66.08728509351974,2
+303,"""('P7_a_8 ', 'Desenvolvo/cuido da manutenção de planilhas para atender as áreas de negócio.')""",float64,1795,66.08728509351974,2
+304,"""('P7_a_9 ', 'Utilizo ferramentas avançadas de estatística como SASS, PSS, Stata etc')""",float64,1795,66.08728509351974,2
+305,"""('P7_a_10 ', 'Nenhuma das opções listadas refletem meu dia a dia.')""",float64,1795,66.08728509351974,2
+306,"""('P7_b ', 'Quais as ferramentas/tecnologias de ETL que você utiliza no trabalho como Data Analyst?')""",object,1795,66.08728509351974,372
+307,"""('P7_b_1 ', 'Scripts Python')""",float64,1795,66.08728509351974,2
+308,"""('P7_b_2 ', 'SQL & Stored Procedures')""",float64,1795,66.08728509351974,2
+309,"""('P7_b_3 ', 'Apache Airflow')""",float64,1795,66.08728509351974,2
+310,"""('P7_b_4 ', 'Apache NiFi')""",float64,1795,66.08728509351974,2
+311,"""('P7_b_5 ', 'Luigi')""",float64,1795,66.08728509351974,2
+312,"""('P7_b_6 ', 'AWS Glue')""",float64,1795,66.08728509351974,2
+313,"""('P7_b_7 ', 'Talend')""",float64,1795,66.08728509351974,2
+314,"""('P7_b_8 ', 'Pentaho')""",float64,1795,66.08728509351974,2
+315,"""('P7_b_9 ', 'Alteryx')""",float64,1795,66.08728509351974,2
+316,"""('P7_b_10 ', 'Stitch')""",float64,1795,66.08728509351974,2
+317,"""('P7_b_11 ', 'Fivetran')""",float64,1795,66.08728509351974,2
+318,"""('P7_b_12 ', 'Google Dataflow')""",float64,1795,66.08728509351974,2
+319,"""('P7_b_13 ', 'Oracle Data Integrator')""",float64,1795,66.08728509351974,2
+320,"""('P7_b_14 ', 'IBM DataStage')""",float64,1795,66.08728509351974,2
+321,"""('P7_b_15 ', 'SAP BW ETL')""",float64,1795,66.08728509351974,2
+322,"""('P7_b_16 ', 'SQL Server Integration Services (SSIS)')""",float64,1795,66.08728509351974,2
+323,"""('P7_b_17 ', 'SAS Data Integration')""",float64,1795,66.08728509351974,2
+324,"""('P7_b_18 ', 'Qlik Sense')""",float64,1795,66.08728509351974,2
+325,"""('P7_b_19 ', 'Knime')""",float64,1795,66.08728509351974,2
+326,"""('P7_b_20 ', 'Databricks')""",float64,1795,66.08728509351974,2
+327,"""('P7_b_21 ', 'Não utilizo ferramentas de ETL')""",float64,1795,66.08728509351974,2
+328,"""('P7_c ', 'Sua empresa utiliza alguma das ferramentas listadas para dar mais autonomia em análise de dados para as áreas de negócio?')""",object,1795,66.08728509351974,32
+329,"""('P7_c_1 ', 'Ferramentas de AutoML como H2O.ai, Data Robot, BigML etc.')""",float64,1795,66.08728509351974,2
+330,"'(\'P7_c_2 \', \'""""Point and Click"""" Analytics como Alteryx, Knime, Rapidminer etc.\')'",float64,1795,66.08728509351974,2
+331,"""('P7_c_3 ', 'Product metricts & Insights como Mixpanel, Amplitude, Adobe Analytics.')""",float64,1795,66.08728509351974,2
+332,"""('P7_c_4 ', 'Ferramentas de análise dentro de ferramentas de CRM como Salesforce Einstein Anaytics ou Zendesk dashboards.')""",float64,1795,66.08728509351974,2
+333,"""('P7_c_5 ', 'Minha empresa não utiliza essas ferramentas.')""",float64,1795,66.08728509351974,2
+334,"""('P7_c_6 ', 'Não sei informar.')""",float64,1795,66.08728509351974,2
+335,"""('P7_d ', 'Em qual das opções abaixo você gasta a maior parte do seu tempo de trabalho?')""",object,1795,66.08728509351974,66
+336,"""('P7_d_1 ', 'Processando e analisando dados utilizando linguagens de programação como Python, R etc.')""",float64,1795,66.08728509351974,2
+337,"""('P7_d_2 ', 'Realizando construções de dashboards em ferramentas de BI como PowerBI, Tableau, Looker, Qlik etc.')""",float64,1795,66.08728509351974,2
+338,"""('P7_d_3 ', 'Criando consultas através da linguagem SQL para exportar informações e compartilhar com as áreas de negócio.')""",float64,1795,66.08728509351974,2
+339,"""('P7_d_4 ', 'Utilizando API's para extrair dados e complementar minhas análises.')""",float64,1795,66.08728509351974,2
+340,"""('P7_d_5 ', 'Realizando experimentos e estudos utilizando metodologias estatísticas como teste de hipótese, modelos de regressão etc.')""",float64,1795,66.08728509351974,2
+341,"""('P7_d_6 ', 'Desenvolvendo/cuidando da manutenção de ETL's utilizando tecnologias como Talend, Pentaho, Airflow, Dataflow etc.')""",float64,1795,66.08728509351974,2
+342,"""('P7_d_7 ', 'Atuando na modelagem dos dados, com o objetivo de criar conjuntos de dados, Data Warehouses, Data Marts etc.')""",float64,1795,66.08728509351974,2
+343,"""('P7_d_8 ', 'Desenvolvendo/cuidando da manutenção de planilhas do Excel ou Google Sheets para atender as áreas de negócio.')""",float64,1795,66.08728509351974,2
+344,"""('P7_d_9 ', 'Utilizando ferramentas avançadas de estatística como SAS, SPSS, Stata etc, para realizar análises.')""",float64,1795,66.08728509351974,2
+345,"""('P7_d_10 ', 'Nenhuma das opções listadas refletem meu dia a dia.')""",float64,1795,66.08728509351974,2
+346,"""('P8_a ', 'Quais das opções abaixo fazem parte da sua rotina no trabalho atual com ciência de dados?')""",object,748,85.86812771585113,438
+347,"""('P8_a_1 ', 'Estudos Ad-hoc com o objetivo de confirmar hipóteses, realizar modelos preditivos, forecasts, análise de cluster para resolver problemas pontuais e responder perguntas das áreas de negócio.')""",float64,748,85.86812771585113,2
+348,"""('P8_a_2 ', 'Sou responsável pela coleta e limpeza dos dados que uso para análise e modelagem.')""",float64,748,85.86812771585113,2
+349,"""('P8_a_3 ', 'Sou responsável por entrar em contato com os times de negócio para definição do problema, identificar a solução e apresentação de resultados.')""",float64,748,85.86812771585113,2
+350,"""('P8_a_4 ', 'Desenvolvo modelos de Machine Learning com o objetivo de colocar em produção em sistemas (produtos de dados).')""",float64,748,85.86812771585113,2
+351,"""('P8_a_5 ', 'Sou responsável por colocar modelos em produção, criar os pipelines de dados, APIs de consumo e monitoramento.')""",float64,748,85.86812771585113,2
+352,"""('P8_a_6 ', 'Cuido da manutenção de modelos de Machine Learning já em produção, atuando no monitoramento, ajustes e refatoração quando necessário.')""",float64,748,85.86812771585113,2
+353,"""('P8_a_7 ', 'Realizo construções de dashboards em ferramentas de BI como PowerBI, Tableau, Looker, Qlik, etc')""",float64,748,85.86812771585113,2
+354,"""('P8_a_8 ', 'Utilizo ferramentas avançadas de estatística como SAS, SPSS, Stata etc, para realizar análises estatísticas e ajustar modelos.')""",float64,748,85.86812771585113,2
+355,"""('P8_a_9 ', 'Crio e dou manutenção em ETLs, DAGs e automações de pipelines de dados.')""",float64,748,85.86812771585113,2
+356,"""('P8_a_10 ', 'Crio e gerencio soluções de Feature Store e cultura de MLOps.')""",float64,748,85.86812771585113,2
+357,"""('P8_a_11 ', 'Sou responsável por criar e manter a infra que meus modelos e soluções rodam (clusters, servidores, API, containers, etc.)')""",float64,748,85.86812771585113,2
+358,"""('P8_a_12 ', 'Treino e aplico LLM's para solucionar problemas de negócio.')""",float64,748,85.86812771585113,2
+359,"""('P8_b ', 'Quais as técnicas e métodos listados abaixo você costuma utilizar no trabalho?')""",object,748,85.86812771585113,470
+360,"""('P8_b_1 ', 'Utilizo modelos de regressão (linear, logística, GLM)')""",float64,748,85.86812771585113,2
+361,"""('P8_b_2 ', 'Utilizo redes neurais ou modelos baseados em árvore para criar modelos de classificação')""",float64,748,85.86812771585113,2
+362,"""('P8_b_3 ', 'Desenvolvo sistemas de recomendação (RecSys)')""",float64,748,85.86812771585113,2
+363,"""('P8_b_4 ', 'Utilizo métodos estatísticos Bayesianos para analisar dados')""",float64,748,85.86812771585113,2
+364,"""('P8_b_5 ', 'Utilizo técnicas de NLP (Natural Language Processing) para análisar dados não-estruturados')""",float64,748,85.86812771585113,2
+365,"""('P8_b_6 ', 'Utilizo métodos estatísticos clássicos (Testes de hipótese, análise multivariada, sobrevivência, dados longitudinais, inferência estatistica) para analisar dados')""",float64,748,85.86812771585113,2
+366,"""('P8_b_7 ', 'Utilizo cadeias de Markov ou HMM's para realizar análises de dados')""",float64,748,85.86812771585113,2
+367,"""('P8_b_8 ', 'Desenvolvo técnicas de Clusterização (K-means, Spectral, DBScan etc)')""",float64,748,85.86812771585113,2
+368,"""('P8_b_9 ', 'Realizo previsões através de modelos de Séries Temporais (Time Series)')""",float64,748,85.86812771585113,2
+369,"""('P8_b_10 ', 'Utilizo modelos de Reinforcement Learning (aprendizado por reforço)')""",float64,748,85.86812771585113,2
+370,"""('P8_b_11 ', 'Utilizo modelos de Machine Learning para detecção de fraude')""",float64,748,85.86812771585113,2
+371,"""('P8_b_12 ', 'Utilizo métodos de Visão Computacional')""",float64,748,85.86812771585113,2
+372,"""('P8_b_13 ', 'Utilizo modelos de Detecção de Churn')""",float64,748,85.86812771585113,2
+373,"""('P8_b_14 ', 'Utilizo LLM's para solucionar problemas de negócio')""",float64,748,85.86812771585113,2
+374,"""('P8_3 ', 'Quais dessas tecnologias fazem parte do seu dia a dia como cientista de dados?')""",object,748,85.86812771585113,403
+375,"""('P8_c_1 ', 'Ferramentas de BI (PowerBI, Looker, Tableau, Qlik etc)')""",float64,748,85.86812771585113,2
+376,"""('P8_c_2 ', 'Planilhas (Excel, Google Sheets etc)')""",float64,748,85.86812771585113,2
+377,"""('P8_c_3 ', 'Ambientes de desenvolvimento local (R-studio, JupyterLab, Anaconda)')""",float64,748,85.86812771585113,2
+378,"""('P8_c_4 ', 'Ambientes de desenvolvimento na nuvem (Google Colab, AWS Sagemaker, Kaggle Notebooks etc)')""",float64,748,85.86812771585113,2
+379,"""('P8_c_5 ', 'Ferramentas de AutoML (Datarobot, H2O, Auto-Keras etc)')""",float64,748,85.86812771585113,2
+380,"""('P8_c_6 ', 'Ferramentas de ETL (Apache Airflow, NiFi, Stitch, Fivetran, Pentaho etc)')""",float64,748,85.86812771585113,2
+381,"""('P8_c_7 ', 'Plataformas de Machine Learning (TensorFlow, Azure Machine Learning, Kubeflow etc)')""",float64,748,85.86812771585113,2
+382,"""('P8_c_8 ', 'Feature Store (Feast, Hopsworks, AWS Feature Store, Databricks Feature Store etc)')""",float64,748,85.86812771585113,2
+383,"""('P8_c_9 ', 'Sistemas de controle de versão (Github, DVC, Neptune, Gitlab etc)')""",float64,748,85.86812771585113,2
+384,"""('P8_c_10 ', 'Plataformas de Data Apps (Streamlit, Shiny, Plotly Dash etc)')""",float64,748,85.86812771585113,2
+385,"""('P8_c_11 ', 'Ferramentas de estatística avançada como SPSS, SAS, etc.')""",float64,748,85.86812771585113,2
+386,"""('P8_d ', 'Em qual das opções abaixo você gasta a maior parte do seu tempo no trabalho?')""",object,748,85.86812771585113,87
+387,"""('P8_d_1 ', 'Estudos Ad-hoc com o objetivo de confirmar hipóteses, realizar modelos preditivos, forecasts, análise de cluster para resolver problemas pontuais e responder perguntas das áreas de negócio.')""",float64,748,85.86812771585113,2
+388,"""('P8_d_2 ', 'Coletando e limpando os dados que uso para análise e modelagem.')""",float64,748,85.86812771585113,2
+389,"""('P8_d_3 ', 'Entrando em contato com os times de negócio para definição do problema, identificar a solução e apresentação de resultados.')""",float64,748,85.86812771585113,2
+390,"""('P8_d_4 ', 'Desenvolvendo modelos de Machine Learning com o objetivo de colocar em produção em sistemas (produtos de dados).')""",float64,748,85.86812771585113,2
+391,"""('P8_d_5 ', 'Colocando modelos em produção, criando os pipelines de dados, APIs de consumo e monitoramento.')""",float64,748,85.86812771585113,2
+392,"""('P8_d_6 ', 'Cuidando da manutenção de modelos de Machine Learning já em produção, atuando no monitoramento, ajustes e refatoração quando necessário.')""",float64,748,85.86812771585113,2
+393,"""('P8_d_7 ', 'Realizando construções de dashboards em ferramentas de BI como PowerBI, Tableau, Looker, Qlik, etc.')""",float64,748,85.86812771585113,2
+394,"""('P8_d_8 ', 'Utilizando ferramentas avançadas de estatística como SAS, SPSS, Stata etc, para realizar análises.')""",float64,748,85.86812771585113,2
+395,"""('P8_d_9 ', 'Criando e dando manutenção em ETLs, DAGs e automações de pipelines de dados.')""",float64,748,85.86812771585113,2
+396,"""('P8_d_10 ', 'Criando e gerenciando soluções de Feature Store e cultura de MLOps.')""",float64,748,85.86812771585113,2
+397,"""('P8_d_11 ', 'Criando e mantendo a infra que meus modelos e soluções rodam (clusters, servidores, API, containers, etc.)')""",float64,748,85.86812771585113,2
+398,"""('P8_d_12 ', 'Treinando e aplicando LLM's para solucionar problemas de negócio.')""",float64,748,85.86812771585113,2

@@ -1,0 +1,16 @@
+raw_value,canonical_value,mapping_version,notes
+Empregado (CLT),EMPLOYEE_CLT,v1,
+Empreendedor ou Empregado (CNPJ),CONTRACTOR_CNPJ,v1,
+"Desempregado, buscando recolocação",UNEMPLOYED_SEEKING,v1,
+Desempregado e não estou buscando recolocação,UNEMPLOYED_NOT_SEEKING,v1,
+Estagiário,INTERN,v1,
+Servidor Público,PUBLIC_SERVANT,v1,
+Vivo no Brasil e trabalho remoto para empresa de fora do Brasil (PJ),REMOTE_FOREIGN_COMPANY_BR,v1,Year1 label includes literal "(PJ)" suffix; Year2/Year3 label text is identical minus that suffix - treated as EXACT_MATCH
+Vivo no Brasil e trabalho remoto para empresa de fora do Brasil,REMOTE_FOREIGN_COMPANY_BR,v1,Year2/Year3 wording without "(PJ)" suffix
+Vivo fora do Brasil e trabalho para empresa de fora do Brasil,ABROAD_FOREIGN_COMPANY,v1,
+Trabalho na área Acadêmica/Pesquisador,ACADEMIC_RESEARCHER,v1,
+Freelancer,FREELANCER,v1,
+Somente Estudante (graduação),STUDENT_UNDERGRAD,v1,
+Somente Estudante (pós-graduação),STUDENT_GRAD,v1,
+Prefiro não informar,NOT_INFORMED,v1,
+,UNKNOWN,v1,

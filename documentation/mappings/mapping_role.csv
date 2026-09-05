@@ -1,0 +1,43 @@
+raw_value,survey_year_scope,canonical_role,comparability_group,mapping_version,notes
+Analista de Dados/Data Analyst,all,DATA_ANALYST,DATA_ANALYST,v1,identical wording all 3 years
+Cientista de Dados/Data Scientist,all,DATA_SCIENTIST,DATA_SCIENTIST,v1,identical wording all 3 years
+Engenheiro de Dados/Data Engineer,year_1,DATA_ENGINEER,DATA_ENGINEER_GROUP,v1,Year1 keeps Data Engineer separate from Data Architect
+Engenheiro de Dados/Arquiteto de Dados/Data Engineer/Data Architect,year_2,DATA_ENGINEER_OR_ARCHITECT,DATA_ENGINEER_GROUP,v1,Year2 merges Data Engineer and Data Architect into one option
+Engenheiro de Dados/Data Engineer/Data Architect,year_3,DATA_ENGINEER_OR_ARCHITECT,DATA_ENGINEER_GROUP,v1,Year3 merges Data Engineer and Data Architect into one option
+Arquiteto de Dados,year_1,DATA_ARCHITECT,DATA_ENGINEER_GROUP,v1,Year1 offers Data Architect as its own separate option
+Arquiteto de Dados/Data Architect,year_3,DATA_ARCHITECT,DATA_ENGINEER_GROUP,v1,Year3 also lists this as a distinct option alongside the merged Data Engineer/Data Architect option; only DATA_ENGINEER_GROUP aggregate is safely comparable across years
+Analista de BI/BI Analyst/Analytics Engineer,year_1,BI_ANALYST_OR_ANALYTICS_ENGINEER,BI_ANALYTICS_ENGINEER_GROUP,v1,Year1 does not separate BI Analyst from Analytics Engineer - not directly comparable to Year2/Year3 individual counts; only the group aggregate is comparable
+Analista de BI/BI Analyst,"year_2,year_3",BI_ANALYST,BI_ANALYTICS_ENGINEER_GROUP,v1,
+Analytics Engineer,"year_2,year_3",ANALYTICS_ENGINEER,BI_ANALYTICS_ENGINEER_GROUP,v1,option introduced as distinct choice starting Year2
+Analista de Negocios/Business Analyst,all,BUSINESS_ANALYST,BUSINESS_ANALYST,v1,identical wording all 3 years (accent variants normalized upstream)
+Analista de Negócios/Business Analyst,all,BUSINESS_ANALYST,BUSINESS_ANALYST,v1,identical wording all 3 years
+Desenvolvedor ou Engenheiro de Software,year_1,SOFTWARE_ENGINEER,SOFTWARE_IT_GROUP,v1,Year1 keeps Software Engineer separate from IT/Systems Analyst
+Analista de Sistemas/Analista de TI,year_1,IT_SYSTEMS_ANALYST,SOFTWARE_IT_GROUP,v1,
+Desenvolvedor/ Engenheiro de Software/ Analista de Sistemas,"year_2,year_3",SOFTWARE_ENGINEER_OR_IT_ANALYST,SOFTWARE_IT_GROUP,v1,Year2/Year3 merge Software Engineer and IT/Systems Analyst into one option; only SOFTWARE_IT_GROUP aggregate is comparable to Year1
+Engenheiro de Machine Learning/ML Engineer,year_1,ML_ENGINEER,ML_ENGINEER,v1,
+Engenheiro de Machine Learning/ML Engineer/AI Engineer,"year_2,year_3",ML_ENGINEER,ML_ENGINEER,v1,"label adds AI Engineer wording starting Year2 - same canonical role, reflects market terminology shift not a new role"
+Data Product Manager/ Product Manager (PM/APM/DPM/GPM/PO),"year_2,year_3",DATA_PRODUCT_MANAGER,DATA_PRODUCT_MANAGER,v1,option introduced as distinct choice starting Year2 - NOT_COMPARABLE for Year1
+Analista de Suporte/Analista Tecnico,"year_2,year_3",SUPPORT_ANALYST,SUPPORT_ANALYST,v1,
+Analista de Suporte/Analista Técnico,"year_2,year_3",SUPPORT_ANALYST,SUPPORT_ANALYST,v1,
+Suporte Tecnico,year_1,SUPPORT_ANALYST,SUPPORT_ANALYST,v1,Year1 uses shorter label for functionally the same option
+Suporte Técnico,year_1,SUPPORT_ANALYST,SUPPORT_ANALYST,v1,Year1 uses shorter label for functionally the same option
+Analista de Inteligencia de Mercado/Market Intelligence,all,MARKET_INTELLIGENCE_ANALYST,MARKET_INTELLIGENCE_ANALYST,v1,
+Analista de Inteligência de Mercado/Market Intelligence,all,MARKET_INTELLIGENCE_ANALYST,MARKET_INTELLIGENCE_ANALYST,v1,
+Outras Engenharias (nao inclui dev),all,OTHER_ENGINEERING,OTHER_ENGINEERING,v1,
+Outras Engenharias (não inclui dev),all,OTHER_ENGINEERING,OTHER_ENGINEERING,v1,
+Estatistico,all,STATISTICIAN,STATISTICIAN,v1,
+Estatístico,all,STATISTICIAN,STATISTICIAN,v1,
+DBA/Administrador de Banco de Dados,all,DBA,DBA,v1,
+Professor,year_1,ACADEMIC,ACADEMIC,v1,
+Professor/Pesquisador,"year_2,year_3",ACADEMIC,ACADEMIC,v1,label adds Pesquisador starting Year2 - treated as same canonical role
+Economista,year_2,OTHER,OTHER,v1,
+Analista Administrativo,year_1,OTHER,OTHER,v1,
+Analista de Marketing,year_1,OTHER,OTHER,v1,
+Tecnico,year_1,OTHER,OTHER,v1,
+Técnico,year_1,OTHER,OTHER,v1,
+Outro,year_1,OTHER,OTHER,v1,
+Outra Opcao,"year_2,year_3",OTHER,OTHER,v1,label changes from Outro (Year1) to Outra Opcao (Year2/Year3) for the same free-text catch-all option
+Outra Opção,"year_2,year_3",OTHER,OTHER,v1,label changes from Outro (Year1) to Outra Opção (Year2/Year3) for the same free-text catch-all option
+Arquiteto de dados,year_1,DATA_ARCHITECT,DATA_ENGINEER_GROUP,v1,"lowercase variant of 'Arquiteto de Dados' found in raw Year1 data (2 rows) - same option, inconsistent capitalization at source"
+Product Manager,year_1,DATA_PRODUCT_MANAGER,DATA_PRODUCT_MANAGER,v1,"free-text/rare value found in raw Year1 data (6 rows); Year1 questionnaire options did not list this as a standard choice like Year2/Year3 do - treated as the same canonical role, flagged NOT_COMPARABLE at the option-availability level since it wasn't an official choice in Year1"
+,all,UNKNOWN,UNKNOWN,v1,structural missingness - question only asked when respondent is currently working; not a negative/zero response
