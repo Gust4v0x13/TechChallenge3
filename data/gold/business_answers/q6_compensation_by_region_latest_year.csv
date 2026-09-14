@@ -1,0 +1,6 @@
+region,respondent_count,median_salary_midpoint,salary_iqr,low_sample_flag
+Centro-oeste,231,10000.5,9000.0,False
+Nordeste,380,10000.5,9000.0,False
+Norte,48,10000.5,13000.0,False
+Sudeste,2171,10000.5,11000.0,False
+Sul,540,10000.5,9000.0,False
